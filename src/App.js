@@ -36,7 +36,7 @@ function App() {
       <Header />
       <Grid/>
       <ImageContainer />
-      <Feedbacks/>
+  
       
       
       
