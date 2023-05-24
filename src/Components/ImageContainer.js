@@ -1,16 +1,15 @@
-import React ,{ useEffect } from 'react'
+import React, { useEffect } from 'react'
 import ImageSlider from './ImageSlider';
 import '../Styles/ImageContainer.css'
-import AOS from 'aos';
-import 'aos/dist/aos.css'
+
 
 const ImageContainer = () => {
 
-  useEffect(() => {
-    AOS.init({ duration: 2000 });
+  // useEffect(() => {
+  //   AOS.init({ duration: 2000 });
 
 
-  }, []);
+  // }, []);
 
   const cycloImages = [
     './18.jpg',
@@ -18,16 +17,20 @@ const ImageContainer = () => {
     './10.jpg',
   ];
 
-  const maraImages = [ 
+  const maraImages = [
     './4.jfif',
     './5.jfif',
     './13.jfif',
   ];
 
   return (
-    <div className='imgContianer' data-aos='zoom-in'>
-      <ImageSlider  images={cycloImages}/>
-      <ImageSlider images={maraImages} />
+    <div className="Album">
+      <div className='AlbumTitle'>Album</div>
+      <div className='imgContianer' data-aos='zoom-in'>
+
+        <ImageSlider images={cycloImages} />
+        <ImageSlider images={maraImages} />
+      </div>
     </div>
   )
 }

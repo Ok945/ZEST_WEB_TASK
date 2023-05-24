@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+
 .imgContianer {
 
 
@@ -7,14 +10,34 @@
     gap: 10px;
     justify-items: center;
     align-items: center;
-    /* width: 100%; */
-    /* height: 200px; */
+    width: 100%;
+    height: 300px
     /* background-color: rgb(74, 185, 54); */
     /* position: relative; */
     /* bottom: -2000px */
-    margin-top: 200px;
-    margin-bottom: 200px;
+   
 }
+.Album{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: row;
+    margin-top: 200px;
+    margin-bottom: 500px;
+
+}
+.AlbumTitle{
+    position: absolute;
+    font-size: 50px;
+    font-family: 'Aclonica', sans-serif;
+    margin-bottom: 100px;
+    height: fit-content;
+    top: -60px;
+}
+
+
+
 
 @media (max-width:1024px) and (min-width:955px) {
 
@@ -26,19 +49,23 @@
 }
 
 
-@media (max-width:954px)  {
+@media (max-width:954px) {
 
+    .Album{
+        margin-bottom: 500px;
+    }
     .imgContianer {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, 1fr);
         gap: 400px;
+        margin-top: 200px;
     }
 
 }
 
 @media (max-width:764px) {
-    .imgContianer{
+    .imgContianer {
         gap: 200px;
     }
 }
