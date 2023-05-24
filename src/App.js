@@ -32,10 +32,10 @@ function App() {
 
   return (
     <div className='mainbody'>
+      <Navbar/>
       <Header />
       <Grid/>
       <ImageContainer />
-      <Navbar/>
       {/* <Feedbacks/> */}
       
       
