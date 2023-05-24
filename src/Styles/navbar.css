@@ -102,11 +102,7 @@ nav {
 
     #navbar.active {
         right: 0px;
-<<<<<<< HEAD
         display: flex;
-=======
-        display:flex;
->>>>>>> 0523a390122b00e900130e7bb446ee6fe7603189
     }
 
     #navbar li {
