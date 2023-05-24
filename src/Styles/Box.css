@@ -174,7 +174,7 @@ img {
 }
 
 
-@media (max-width:749px) and (min-width:427px){
+@media (max-width:749px) {
 
     .Box {
 
@@ -205,4 +205,9 @@ img {
         margin-top: 15px;
     }
     }
+
+    /* .Box{
+        width: 33vw;
+    
+    } */
 }

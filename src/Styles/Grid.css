@@ -80,7 +80,15 @@
 }
 
 @media (max-width:749px) and (min-width:426px) {
-    .gridContainer{
+    .gridContainer {
         width: 90%;
+        left: 3%;
+    }
+}
+
+@media (max-width:426px) {
+    .gridContainer {
+        width: 90%;
+        left: 3%;
     }
 }
