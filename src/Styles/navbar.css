@@ -7,7 +7,10 @@ nav {
     padding: 20px 80px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
     z-index: 200;
+    /* overflow: hidden; */
 }
+
+
 
 #navbar {
 
@@ -69,7 +72,7 @@ nav {
 
     #navbar {
 
-        display: flex;
+        display: none;
         flex-direction: column;
         /* align-items: flex-start; */
         justify-content: flex-start;
@@ -82,11 +85,15 @@ nav {
         background: #2a3239;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 40px 0 0 10px;
-        transition: 0.3s ease-in-out;
+        transition: 0.5s ease-in-out;
         z-index: 200;
+        /* overflow: hidden; */
 
 
     }
+    /* .sidebox{
+    overflow: hidden;
+    } */
 
     #mobile {
 
@@ -95,6 +102,7 @@ nav {
 
     #navbar.active {
         right: 0px;
+        display: flex;
     }
 
     #navbar li {
