@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 // import { useIntersection } from 'react-use';
 import Box from './Box';
-import './Grid.css';
+import '../Styles/Grid.css';
 
 // import gsap from "gsap";
 

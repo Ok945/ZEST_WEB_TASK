@@ -174,11 +174,14 @@ img {
 }
 
 
-@media (max-width:749px) {
+@media (max-width:749px) and (min-width:427px){
 
     .Box {
 
         width: 33vw;
+    }
+    p {
+        display: none;
     }
 }
 

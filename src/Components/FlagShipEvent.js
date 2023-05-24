@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './FlagShipEvent.css'
+import '../Styles/FlagShipEvent.css'
 import Grid from './Grid'
 
 const Container = () => {

@@ -1,6 +1,6 @@
 
 import React from 'react'
-import './Feedback.css'
+import '../Styles/Feedback.css'
 
 const Feedbacks = () => {
   return (

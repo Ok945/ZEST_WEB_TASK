@@ -1,6 +1,6 @@
 import React ,{ useEffect } from 'react'
 import ImageSlider from './ImageSlider';
-import './ImageContainer.css'
+import '../Styles/ImageContainer.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 

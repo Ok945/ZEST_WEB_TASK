@@ -22,6 +22,7 @@ header {
     padding: 0 2rem;
     background-color: var(--mainColor);
     color: var(--textColor);
+    z-index: 200;
 }
 
 nav a {

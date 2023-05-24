@@ -1,5 +1,5 @@
 import React from 'react'
-import './Header.css'
+import '../Styles/Header.css'
 // import { ReactComponent as SVG } from './path/to/svg.svg';
 
 const Header = () => {
