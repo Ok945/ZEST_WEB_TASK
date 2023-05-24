@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    /* top: 100%; */
+    left: calc(2%);
+    overflow: hidden;
+
+    /* color: white;
+    background: #333844;
+    padding: 10px;
+    margin-top: 200px;
+    min-height: 100vh;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    width: 96%;
+    z-index: 100;
+    box-shadow: 0px 0px 20px 1px black; */
+}
+
+.gridContainer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+    color: white;
+    background: #333844;
+    padding: 10px;
+    margin-top: 200px;
+    min-height: 100vh;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    width: 96%;
+    z-index: 100;
+    box-shadow: 0px 0px 20px 1px black;
+}
+
+.box {
+
+    animation: fadeIn 0.1s ease-in-out;
+
+}
+
+.gridTitle {
+    display: block;
+    position: relative;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-shadow: 2px -2px 20px #1dd3d8;
+}
+
+@media (max-width:1440px) and (min-width:1025px) {
+
+    .gridContainer {
+        width: 94%;
+        left: calc(3.9%);
+
+    }
+}
+
+@media (max-width:1024px) and (min-width:750px) {
+
+    .gridContainer {
+        width: 91%;
+        left: calc(3.9%);
+    }
+}
+
+@media (max-width:749px) and (min-width:426px) {
+    .gridContainer{
+        width: 90%;
+    }
+}

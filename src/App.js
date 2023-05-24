@@ -1,24 +1,45 @@
+import React, { useRef, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header'
+import { TweenMax, Power3 } from 'gsap'
+import Container from './Components/FlagShipEvent';
+import ImageContainer from './Components/ImageContainer';
+import Feedbacks from './Components/Feedbacks';
+import Grid from './Components/Grid'
 
 function App() {
+
+  // let logoItem = useRef();
+
+  // useEffect(() => {
+  //   console.log(logoItem)
+  //   TweenMax.to(logoItem, 0.8, {x:20 , opacity:1, ease:Power3.easeOut})
+
+  // }, [])
+
+
+
+
+
+
+
+
+
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='mainbody'>
+      <Header />
+      <Grid/>
+      <ImageContainer />
+      {/* <Feedbacks/> */}
+      
+      
+      
     </div>
+
   );
 }
 

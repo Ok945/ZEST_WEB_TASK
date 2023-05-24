@@ -1,0 +1,8 @@
+.Container{
+display: flex;
+height: min-content;
+width: auto;
+background-color: rebeccapurple;
+justify-content: center;
+
+}
