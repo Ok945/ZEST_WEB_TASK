@@ -7,6 +7,7 @@ import Container from './Components/FlagShipEvent';
 import ImageContainer from './Components/ImageContainer';
 import Feedbacks from './Components/Feedbacks';
 import Grid from './Components/Grid'
+import Navbar from './Components/Navbar';
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
       <Header />
       <Grid/>
       <ImageContainer />
+      <Navbar/>
       {/* <Feedbacks/> */}
       
       
