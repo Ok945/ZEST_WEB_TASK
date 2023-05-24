@@ -3,17 +3,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+
 body {
   margin: 0;
   height: 100vh;
 }
 
-h1 {
+.slogan {
   /* font-family: 'Lato', sans-serif; */
+  /* font-family: 'Aclonica', sans-serif; */
   font-family: 'Aclonica', sans-serif;
   font-weight: 300;
   letter-spacing: 2px;
-  font-size: 48px;
+  font-size: 28px;
+  position: relative;
+  top: 85px;
+  left: 20px;
 }
 
 
@@ -135,7 +142,7 @@ p {
 
 
 
-@media (max-width: 768px) and (min-width:427px){
+@media (max-width: 768px) and (min-width:427px) {
   .waves {
     height: 40px;
     min-height: 40px;
@@ -153,7 +160,8 @@ p {
     width: 230px;
     height: auto;
   }
-  .Bothimg{
+
+  .Bothimg {
     width: 130px;
     height: 80px;
   }
@@ -161,11 +169,11 @@ p {
 
 
 @media (max-width:426px) {
-  .Bothimg{
+  .Bothimg {
     width: 95px;
     height: 47px;
     /* margin: 9px; */
     left: 0px;
   }
-  
+
 }

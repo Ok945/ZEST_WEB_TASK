@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Styles/Header.css'
+import Typewriter from 'typewriter-effect'
 // import { ReactComponent as SVG } from './path/to/svg.svg';
 
 const Header = () => {
@@ -10,10 +11,25 @@ const Header = () => {
             <div class="inner-header flex">
 
                 {/* <h1>Zest 24</h1> */}
-                <img  className="Logo" src="./ZestLogowhite1.png" alt="" />
+                <img className="Logo" src="./ZestLogowhite1.png" alt="" />
                 <img className="Bothimg" src="./bothLogos.png" alt="" />
+                <div className="slogan">
+                    <Typewriter
+                        options={{
+                            autoStart:true,
+                            loop:true,
+                            delay:40,
+                            strings:[
+                              'GO WITH THE FLOW',
+                              "LET'S GO",
+                              "CARRY ON THE HERITGE"  
+                            ]
+                        }}
+                    />
+                </div>
 
-{/* C:\Users\omken\Desktop\my-app\public\ZestLogoblack1.png */}
+
+
             </div>
 
             {/* <!--Waves Container --> */}
