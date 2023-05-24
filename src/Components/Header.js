@@ -10,10 +10,10 @@ const Header = () => {
             <div class="inner-header flex">
 
                 {/* <h1>Zest 24</h1> */}
-                <img  className="Logo"src="./ZestLogoWhite1.png" alt="" />
-                <img className="Bothimg"src="./bothLogos.png" alt="" />
+                <img  className="Logo" src="./ZestLogowhite1.png" alt="" />
+                <img className="Bothimg" src="./bothLogos.png" alt="" />
 
-
+{/* C:\Users\omken\Desktop\my-app\public\ZestLogoblack1.png */}
             </div>
 
             {/* <!--Waves Container --> */}
