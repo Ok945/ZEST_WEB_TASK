@@ -69,7 +69,7 @@ nav {
 
     #navbar {
 
-        display: flex;
+        display: none;
         flex-direction: column;
         /* align-items: flex-start; */
         justify-content: flex-start;
@@ -95,6 +95,7 @@ nav {
 
     #navbar.active {
         right: 0px;
+        display:flex;
     }
 
     #navbar li {
