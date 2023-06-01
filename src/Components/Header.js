@@ -22,7 +22,7 @@ const Header = () => {
                             strings:[
                               'GO WITH THE FLOW',
                               "LET'S GO",
-                              "CARRY ON THE HERITGE"  
+                              "CARRY ON THE HERITAGE"  
                             ]
                         }}
                     />

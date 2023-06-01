@@ -27,9 +27,9 @@ class Navbar extends Component {
 							<li><a className="active1" href="#">HOME</a></li>
 							<li><a href="#">ABOUT US</a></li>
 							<li><a href="#">EVENT</a></li>
-							<li><a href="#">Marathon</a></li>
-							<li><a href="#">Cyclothon</a></li>
-							<li><a href="#">Contact Us</a></li>
+							<li><a href="#">MARATHON</a></li>
+							<li><a href="#">CYCLOTHON</a></li>
+							<li><a href="#">CONTACT US</a></li>
 						</ul>
 					</div>
 
