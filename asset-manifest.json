@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ZEST_WEB_TASK/static/css/main.5c0b645c.css",
-    "main.js": "/ZEST_WEB_TASK/static/js/main.fdbf1cf6.js",
+    "main.js": "/ZEST_WEB_TASK/static/js/main.98c7462f.js",
     "static/js/787.28cb0dcd.chunk.js": "/ZEST_WEB_TASK/static/js/787.28cb0dcd.chunk.js",
     "static/media/logo.svg": "/ZEST_WEB_TASK/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ZEST_WEB_TASK/index.html",
     "main.5c0b645c.css.map": "/ZEST_WEB_TASK/static/css/main.5c0b645c.css.map",
-    "main.fdbf1cf6.js.map": "/ZEST_WEB_TASK/static/js/main.fdbf1cf6.js.map",
+    "main.98c7462f.js.map": "/ZEST_WEB_TASK/static/js/main.98c7462f.js.map",
     "787.28cb0dcd.chunk.js.map": "/ZEST_WEB_TASK/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c0b645c.css",
-    "static/js/main.fdbf1cf6.js"
+    "static/js/main.98c7462f.js"
   ]
 }
